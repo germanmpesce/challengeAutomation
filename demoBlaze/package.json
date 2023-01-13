@@ -1,0 +1,20 @@
+{
+  "name": "demoblaze",
+  "version": "1.0.0",
+  "description": "demoBlaze challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "demoblaze",
+    "e2e",
+    "cypress"
+  ],
+  "author": "German Pesce",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}
