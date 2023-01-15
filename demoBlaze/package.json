@@ -4,8 +4,10 @@
   "description": "demoBlaze challenge",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "open": "node_modules\\.bin\\cypress open",
+    "test": "node_modules\\.bin\\cypress run",
+    "testChrome": "npm run test --browser chrome"
   },
   "keywords": [
     "demoblaze",
@@ -15,6 +17,10 @@
   "author": "German Pesce",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.3.0"
+    "cypress": "^12.3.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }

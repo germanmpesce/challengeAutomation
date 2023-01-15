@@ -1,0 +1,19 @@
+{
+  "name": "challengeautomation",
+  "version": "1.0.0",
+  "description": "challengeAutomation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germanmpesce/challengeAutomation.git"
+  },
+  "author": "German Pesce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/germanmpesce/challengeAutomation/issues"
+  },
+  "homepage": "https://github.com/germanmpesce/challengeAutomation#readme"
+}

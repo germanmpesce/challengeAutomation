@@ -221,33 +221,6 @@
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "executeRunHeadless",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "https://api.getpostman.com/collections/16230275-76f4cf9b-2914-49a9-8f54-7b93bd91dd3b?apikey=PMAK-63c09e5353e5e2652dfe5590-af85a58e2d3ecb04418c0d6579f7fee5e7",
-					"protocol": "https",
-					"host": [
-						"api",
-						"getpostman",
-						"com"
-					],
-					"path": [
-						"collections",
-						"16230275-76f4cf9b-2914-49a9-8f54-7b93bd91dd3b"
-					],
-					"query": [
-						{
-							"key": "apikey",
-							"value": "PMAK-63c09e5353e5e2652dfe5590-af85a58e2d3ecb04418c0d6579f7fee5e7"
-						}
-					]
-				}
-			},
-			"response": []
 		}
 	],
 	"event": [
