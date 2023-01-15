@@ -46,9 +46,10 @@ On the route \challengeAutomation\demoblaze execute the tests with command:
 
 The repository contains automation tests of multiples iterations from web: https://www.demoblaze.com/
 
-You can get sinUp, logIn, logOut and add a laptop in the cart
+You can get sinUp, logIn, logOut and add a laptop on the cart
 
 The user can see how to validate multiples response from demoblaze and get report headless.
 
-About
+### About
+
 Developed by Germán Pesce (ARG) - January 2023.
