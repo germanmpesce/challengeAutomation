@@ -2,7 +2,8 @@ import mainPage from "../../pageObjectModel/mainPage";
 import formLogInPage from "../../pageObjectModel/formLogInPage";
 
 const newUsers = require("../../fixtures/newUsers.json");
-describe("test Case 03 - log Out", function () {
+
+describe("Test Case 03 - Log Out", function () {
   beforeEach(function () {
     cy.visit("/index.html");
     mainPage.clickLogIn();

@@ -18,14 +18,13 @@ module.exports = defineConfig({
     reportDir: "cypress/reports",
     charts: true,
     reportPageTitle: "demoBlaze Report",
-    embeddedScreenshots: true,
+    embeddedScreenshots: false,
     inlineAssets: true,
     saveAllAttempts: false,
   },
 
   e2e: {
-    baseUrl: "https://www.demoblaze.com"
-    ,
-    // specPattern: '**/*.feature'
+    baseUrl: "https://www.demoblaze.com",
+    //specPattern: '**/*.feature'
   },
 });

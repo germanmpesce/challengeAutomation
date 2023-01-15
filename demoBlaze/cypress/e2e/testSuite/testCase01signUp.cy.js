@@ -2,7 +2,8 @@ import mainPage from "../../pageObjectModel/mainPage";
 import formSignUpPage from "../../pageObjectModel/formSignUpPage";
 
 const newUsers = require("../../fixtures/newUsers.json");
-describe("test Case 01 - sign Up", function () {
+
+describe("Test Case 01 - Sign Up", function () {
   beforeEach(function () {
     cy.visit("/index.html");
     mainPage.elements.signUp_button();
@@ -15,8 +16,8 @@ describe("test Case 01 - sign Up", function () {
   });
 
   it("signUp successful", () => {
-    cy.on('window:alert', (str) => {
-      expect(str).to.equal('Sign up successful.')
-    })
+    cy.on("window:alert", (str) => {
+      expect(str).to.equal("Sign up successful.");
+    });
   });
 });

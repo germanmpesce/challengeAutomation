@@ -7,7 +7,8 @@
     "cypress:open": "cypress open",
     "open": "node_modules\\.bin\\cypress open",
     "test": "node_modules\\.bin\\cypress run",
-    "testChrome": "npm run test --browser chrome"
+    "testChrome": "npm run test --browser chrome",
+    "runChrome": "cypress run --headless --browser electron --spec cypress/e2e/testSuite/*.cy.js"
   },
   "keywords": [
     "demoblaze",
@@ -18,7 +19,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.3.0",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.2.3"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true

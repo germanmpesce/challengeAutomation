@@ -4,7 +4,8 @@ import laptopsPage from "../../pageObjectModel/laptopsPage";
 import buyPage from "../../pageObjectModel/buyPage";
 
 const newUsers = require("../../fixtures/newUsers.json");
-describe("test Case 04 - add to Cart and verify", function () {
+
+describe("Test Case 04 - Add to Cart and Verify", function () {
   beforeEach(function () {
     //Login
     cy.visit("/index.html");
@@ -14,15 +15,16 @@ describe("test Case 04 - add to Cart and verify", function () {
     cy.wait(2000);
     formLogInPage.elements.password_button().type(newUsers.password);
     cy.wait(2000);
-    formLogInPage.clickLogIn()
+    formLogInPage.clickLogIn();
 
-    cy.visit("https://www.demoblaze.com/index.html");
     //Navigate to section 'Laptops'
     mainPage.elements.laptops_button().click();
+
     //Select laptop Sony vaio i5
     laptopsPage.elements.item_laptop().click();
     buyPage.elements.addToCart_button().click();
 
+    //Navigate to Cart
     cy.visit("https://www.demoblaze.com/cart.html");
   });
 

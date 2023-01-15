@@ -19,18 +19,14 @@ Given("A valid user logged at webpage", () => {
 });
 
 And("Visit the laptops page", () => {
-  cy.visit("https://www.demoblaze.com/index.html");
-  //Navigate to section 'Laptops'
   mainPage.elements.laptops_button().click();
-  //Select laptop Sony vaio i5
 });
 
 And("Add a product on the cart", () => {
-    //Select laptop Sony vaio i5
     laptopsPage.elements.item_laptop().click();
 });
 
-When("When the user add a laptop on the cart", () => {
+When("The user add a laptop on the cart", () => {
   buyPage.elements.addToCart_button().click();
 
   cy.visit("https://www.demoblaze.com/cart.html");

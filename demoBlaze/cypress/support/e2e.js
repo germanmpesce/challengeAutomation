@@ -16,3 +16,5 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './commandsCustom'
+// import 'cypress-mochawesome-reporter/register'
+// import 'cypress-cucumber-preprocessor'
