@@ -10,17 +10,17 @@ Open your CMD
 
 Clone the reposository https://github.com/germanmpesce/challengeAutomation.git
 
-Install the dependencies with `npm install`. The dependencies contains 'newman' to run headless colecction.
+Install the dependencies with `npm install`. The dependencies contain 'newman' to run headless colecction.
 
-On the route \challengeAutomation\apiPetStore execute the collection and generate the HTML report with command:
+In the route \challengeAutomation\apiPetStore, execute the collection and generate the Html Report with the following command:
 
 `newman run "apiPetStoreCollection.json" -r html`
 
-Or you can see the HTML report in route: apiPetStore\newman
+Or you can see the Html Report in route: apiPetStore\newman
 
 ### Collection
 
-The collection contains asserts of multiples responses from API: https://petstore.swagger.io/
+The collection contains asserts of multiple responses from API: https://petstore.swagger.io/
 
 The user can see how to validate jsonSchema and statusCode
 
@@ -38,17 +38,17 @@ Clone the reposository https://github.com/germanmpesce/challengeAutomation.git
 
 Install the dependencies with `npm install`. The dependencies contains 'cucumber' to run the BDD tests
 
-On the route \challengeAutomation\demoblaze execute the tests with command: 
+In the route \challengeAutomation\demoblaze, execute the tests with the following command: 
 
 `npm run open`
 
 ### Collection
 
-The repository contains automation tests of multiples iterations from web: https://www.demoblaze.com/
+The repository contains automation tests of multiple iterations from the web: https://www.demoblaze.com/
 
-You can get sinUp, logIn, logOut and add a laptop on the cart
+You can get SinUp, LogIn, LogOut and Add a Product on the cart
 
-The user can see how to validate multiples response from demoblaze and get report headless.
+The user can see how to validate multiple responses from Demoblaze and get a headless report.
 
 ### About
 
